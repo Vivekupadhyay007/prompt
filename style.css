@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: url(saab.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: end;
+    display: flex;
+    align-items: center;
+}
+
+.container>.whitebox1{
+width: 60%;
+height: 70%;
+background-color:white;
+z-index: 11;
+
+}
+.whitebox1 >nav> img{
+    border-radius: 50%;
+    width: 100px;
+    height: 90px;
+    object-fit: contain;
+    object-position: center;
+}
+nav{
+    width: 100%;
+    /* height: 10vh; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+}
+nav > .middle_section{
+    display: flex;
+    gap: 20px;
+}
+
+.middle_section> a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+nav> button{
+    padding: 15px 20px;
+    border: none;
+    background-color: lightpink;
+    border-radius: 10px;
+}
+
+.whitebox1>.main_portion1{
+width: 100%;
+height: 100%;
+  text-align: center;
+   gap: 20px;
+    display: flex;
+    justify-content: first baseline;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_portion1 >.lion {
+    width: 300px;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+}
+.main_portion1 > h1{
+    font-size: 40px;
+    color:black;
+}
+
+.main_portion1 > p{
+    width: auto;
+}
+
+.main_portion1 button{
+    padding: 15px 25px ;
+    border: none;
+    font-size: 15px;
+    background-color: blueviolet;
+
+}
+.container>.blackbox1{
+    width: 60%;
+    height: 70%;
+    color: white;
+    background-color:black;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap: 30px;
+    position: absolute;
+    left: 10%;
+    bottom: 0%;
+    }
+    .blackbox1 >nav{
+        margin-top: none;
+        background-color: black;
+    }
+    .blackbox1 >nav i {
+        color: red;
+        font-size: 30px;
+    }
+    .blackbox1 >nav> .blacklogo{
+        border-radius: 50%;
+        width: 100px;
+        height: 60px;
+        background-color: black;
+        object-fit: contain;
+        object-position: center;
+    }
+
+    .blackbox1 > p{
+        font-size: 20px;    
+    }
+    .blackbox1 > h1{
+        font-size: 40px;
+
+    }
+
+    .blackbox1 > .submit{
+        padding: 5px 0px;
+        margin: 30px;
+        background-color: yellow;
+    }
+
+    .blackbox1 >.video{
+        margin-right: 40px;
+    }
